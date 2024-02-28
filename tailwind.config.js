@@ -6,12 +6,18 @@ module.exports = {
         "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
     ],
     theme: {
+        backgroundColor: {
+            'background': '#0c1301',
+            'primary': '#bdf075',
+            'secondary': '#119776',
+            'accent': '#65cd48',
+        },
         colors: {
             'text': '#eefbda',
             'background': '#0c1301',
             'primary': '#bdf075',
             'secondary': '#119776',
-            'accent': '#3ed3ea',
+            'accent': '#65cd48',
         },
         fontSize: {
             sm: '0.750rem',

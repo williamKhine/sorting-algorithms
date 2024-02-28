@@ -10,8 +10,8 @@ export const metadata = {
 
 export default function RootLayout({children}) {
     return (
-        <html lang="en" className={'bg-background'}>
-        <body className={'font-body bg-gradient-to-br from-background to-secondary text-text flex flex-col h-screen'}>
+        <html lang="en" className={'bg-background bg-gradient-to-b from-background to-secondary'}>
+        <body className={'font-body text-text flex flex-col h-dvh overflow-hidden'}>
             <Header />
             {children}
             <ControlBar />
